@@ -90,7 +90,7 @@ r2.draw = function () {
   if(l == true){
    r2.background(255)
     for (let i = 0; i < lu.length; i++) {
-      ypos = 900
+      
       r2.text(username[4], r2.width/2, r2.height/2)
       r2.fill(0);
       r2.text(lu.split(' ')[i], 100, ypos + i * 30)
